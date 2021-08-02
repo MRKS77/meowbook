@@ -1,0 +1,10 @@
+.block {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.151);
+  align-self: center;
+  padding: 6px 12px;
+  border-radius: 3px;
+  color: blanchedalmond;
+  font-size: 0.9rem;
+  margin: 8px 0;
+}

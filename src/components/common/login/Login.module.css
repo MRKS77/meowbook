@@ -1,0 +1,109 @@
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  width: 476px;
+  padding: 30px;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.144);
+  border-radius: 0.25rem;
+}
+
+.logpas input {
+  display: block;
+  width: 450px;
+  height: 1.4rem;
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #b5b8bd;
+  border-radius: 0.25rem;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  font-size: 1rem;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.logpas input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.logpas {
+  margin-bottom: 15px;
+}
+
+.check {
+  display: inline-block;
+  margin-right: 0.625rem;
+  height: 1.1rem;
+  width: 1.1rem;
+  position: relative;
+  top: 1px;
+}
+
+.remember {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+
+.remText {
+  font-size: 1.2rem;
+}
+
+.logbut {
+  display: block;
+  width: 200px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgb(35, 170, 148);
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: "Hind Siliguri", sans-serif;
+  transition: 0.15s linear;
+}
+
+.logbut:hover {
+  background-color: rgb(136, 50, 235);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 3.3rem;
+}
+
+.error {
+  font-size: 1.2rem;
+  color: red;
+  margin-bottom: 15px;
+}
+
+.captchaBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.captcha {
+  margin-bottom: 15px;
+  width: 200px;
+}
+
+.captchaBox .logpas input {
+  width: 174px;
+}
+
+.lab {
+  align-self: flex-start;
+  margin-left: 5px;
+  font-size: 1.1rem;
+}

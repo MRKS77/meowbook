@@ -1,0 +1,23 @@
+.start {
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgb(107, 30, 180);
+  height: 20px;
+  user-select: none;
+}
+
+.dia {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: calc(100vh - 60px);
+}
+
+.navli {
+  text-decoration: none;
+  color: rgb(107, 30, 180);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.315);
+}

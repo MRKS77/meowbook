@@ -1,0 +1,131 @@
+.block {
+  display: flex;
+  width: 350px;
+  padding: 5px 15px;
+}
+
+.formLabels {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.descrip {
+  width: 350px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.formControl input,
+textarea {
+  display: block;
+  width: 324px;
+  height: 1rem;
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #b5b8bd;
+  border-radius: 0.25rem;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  font-size: 0.9rem;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.formControl:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.check {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  margin: 0;
+}
+
+.textForm {
+  height: 4.7rem;
+  resize: none;
+  line-height: 1.6rem;
+}
+
+.headerContacts {
+  width: 760px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.subBut {
+  width: 760px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.subBut button {
+  display: block;
+  width: 160px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgb(35, 170, 148);
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: "Hind Siliguri", sans-serif;
+  transition: 0.15s linear;
+}
+
+.subBut button:hover {
+  background-color: rgb(136, 50, 235);
+}
+
+.setHeader {
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.editPageBut {
+  display: flex;
+  padding: 1px 8px;
+  align-items: baseline;
+  position: absolute;
+  top: -12%;
+  left: 88%;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.151);
+  border-radius: 3px;
+  transition: 0.15s linear;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.editPageBut:hover {
+  background-color: rgba(39, 157, 211, 0.726);
+}
+
+.editPageIcon {
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+.error {
+  font-size: 1.2rem;
+  color: red;
+  width: 760px;
+  text-align: center;
+  margin-top: 15px;
+}

@@ -1,0 +1,60 @@
+.butModule {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.butModule button {
+  margin: 0 4px;
+}
+
+.pageButton {
+  min-width: 22px;
+  border-radius: 0.15rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+  font-family: "Hind Siliguri", sans-serif;
+  background-color: rgb(56, 129, 116);
+  transition: 0.1s linear;
+}
+
+.pageButton:hover {
+  background-color: rgb(63, 170, 189);
+}
+
+#currentButton {
+  background-color: rgb(67, 56, 129);
+}
+
+.moveIcon {
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  min-width: 30px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 0.15rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(175, 124, 233);
+  transition: 0.1s linear;
+}
+
+.moveIcon:hover {
+  background-color: rgb(215, 124, 233);
+}
+
+.moveIcon:disabled {
+  background-color: rgb(133, 133, 133);
+}
+
+.mainModule {
+  display: flex;
+  justify-content: space-between;
+}
+
+.marginRight {
+  margin-right: 8px;
+}

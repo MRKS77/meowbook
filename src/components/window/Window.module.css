@@ -1,0 +1,5 @@
+.windowMain {
+  grid-area: w;
+  background-color: rgb(152, 218, 207);
+  border-top-right-radius: 5px;
+}

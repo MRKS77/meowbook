@@ -1,0 +1,39 @@
+.descrip {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 96px;
+}
+
+.info {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cls {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+.dat {
+  font-size: 0.9rem;
+  width: 515px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.icon {
+  position: relative;
+  top: 1px;
+  margin-left: 5px;
+}
+
+.yesIcon {
+  color: rgb(35, 170, 148);
+}
+
+.noIcon {
+  color: rgb(204, 96, 118);
+}

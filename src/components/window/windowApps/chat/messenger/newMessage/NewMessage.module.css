@@ -1,0 +1,64 @@
+.new {
+  display: flex;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 68px;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.area {
+  display: block;
+  width: 85%;
+  height: 3rem;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+  resize: none;
+  margin: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  line-height: 1rem;
+  border: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.area:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 51, 105, 0.25);
+}
+
+/* .deleteBut {
+  height: 1.7rem;
+  background-color: rgb(204, 96, 118);
+} */
+
+.submitBut {
+  height: 2.2rem;
+  background-color: rgb(35, 170, 148);
+  height: 68px;
+  transition: 0.15s linear;
+}
+
+.submitBut:hover {
+  background-color: rgb(136, 50, 235);
+}
+
+.buttons button {
+  display: block;
+  width: 100%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Hind Siliguri", sans-serif;
+}

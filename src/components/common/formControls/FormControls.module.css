@@ -1,0 +1,12 @@
+.error:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.666) !important;
+}
+
+.errorInput input {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.666) !important;
+}
+
+.metaError {
+    color: red;
+    text-align: center;
+}

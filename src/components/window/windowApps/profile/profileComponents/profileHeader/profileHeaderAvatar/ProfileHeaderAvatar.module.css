@@ -1,0 +1,62 @@
+.avatar {
+  position: relative;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+  border-radius: 3%;
+}
+
+.changePhotoBox {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+  -ms-transform: translate(-50%, 100%);
+  background-color: rgba(85, 85, 85, 0.404);
+  color: white;
+  border-radius: 5px;
+  transition: 0.1s linear;
+  opacity: 0;
+}
+
+.changePhotoBox label {
+  width: 200px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  text-shadow: 0 0 2px black;
+  align-content: center;
+  cursor: pointer;
+}
+
+.changePhotoBox input {
+  max-width: 176px;
+  background-color: rgba(0, 0, 0, 0.404);
+  font-size: 12px;
+  padding: 4px 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.avatar img:hover ~ .changePhotoBox,
+.changePhotoBox:hover {
+  opacity: 1;
+}
+
+.fakeBut {
+  max-width: 176px;
+  background-color: rgba(18, 125, 175, 0.747);
+  font-size: 14px;
+  padding: 2px 12px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}

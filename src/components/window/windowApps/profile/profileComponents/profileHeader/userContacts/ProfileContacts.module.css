@@ -1,0 +1,38 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  padding: 0 20px 10px 20px;
+}
+
+.block {
+  width: 240px;
+}
+
+.refName {
+  color: rgba(0, 0, 0, 0.548);
+  font-weight: bold;
+}
+
+.ref {
+  display: block;
+  text-decoration: none;
+  color: rgb(12, 40, 92);
+  width: 230px;
+  height: 24px;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.stick {
+  margin: 0;
+  padding: 0;
+  border-color: rgba(0, 0, 0, 0.055);
+}

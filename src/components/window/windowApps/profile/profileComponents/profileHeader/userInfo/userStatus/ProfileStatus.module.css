@@ -1,0 +1,88 @@
+.block {
+  width: 515px;
+  height: 48px;
+}
+
+.cls {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, 0.548);
+}
+
+.dat {
+  font-size: 0.9rem;
+  width: 515px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.statusHeader {
+  display: flex;
+  align-items: baseline;
+}
+
+.icon {
+  font-size: 12px;
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.548);
+  transition: 0.1s linear;
+}
+
+.icon:hover {
+  color: rgb(109, 165, 53);
+  cursor: pointer;
+}
+
+.updStatus {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  width: 515px;
+  height: 24px;
+}
+
+.updStatus input {
+  width: 370px;
+  height: 22px;
+  border-radius: 0.25rem;
+  resize: none;
+  margin: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 0.9rem;
+  border: none;
+}
+
+.updStatus button {
+  display: block;
+  width: 110px;
+  height: 24px;
+  margin-left: 7px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgba(92, 92, 92, 0.493);
+  font-weight: 500;
+  font-size: 0.9rem;
+  font-family: "Hind Siliguri", sans-serif;
+  transition: 0.1s linear;
+}
+
+.updStatus button:hover {
+  background-color: rgba(63, 170, 78, 0.712);
+}
+
+.updStatus i {
+  margin-left: 7px;
+  font-size: 1.4rem;
+  color: rgba(92, 92, 92, 0.493);
+  cursor: pointer;
+  transition: 0.1s linear;
+}
+
+.updStatus i:hover {
+  color: rgba(163, 44, 44, 0.712);
+}
+
+.status {
+  cursor: pointer;
+}

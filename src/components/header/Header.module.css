@@ -1,0 +1,7 @@
+.headerMain {
+  grid-area: h;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}

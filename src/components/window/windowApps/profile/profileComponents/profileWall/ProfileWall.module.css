@@ -1,0 +1,10 @@
+.stick {
+  margin: 0;
+  padding: 0;
+  border-color: rgba(0, 0, 0, 0.055);
+}
+
+.wall {
+  display: flex;
+  flex-direction: column-reverse;
+}

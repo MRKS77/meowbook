@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  width: 100% - 60px;
+  height: 200px;
+  padding: 15px;
+}
+
+.formWrapper {
+  display: flex;
+  width: 100% - 60px;
+  height: 400px;
+  padding: 15px;
+}

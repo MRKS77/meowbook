@@ -1,0 +1,22 @@
+.wall {
+  background-color: rgb(44, 44, 44);
+}
+
+.pageWrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+    'h h'
+    'n w';
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 240px 1fr;
+  font-family: 'Mukta', sans-serif;
+  color: rgb(39, 39, 39);
+}
+
+.preloadWall {
+  background-color: rgb(44, 44, 44);
+  width: 100vw;
+  height: 100vh;
+}

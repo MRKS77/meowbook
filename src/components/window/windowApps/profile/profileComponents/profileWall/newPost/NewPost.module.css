@@ -1,0 +1,63 @@
+.newPost {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  height: 68px;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+
+.post {
+  display: block;
+  width: 90%;
+  height: 3rem;
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+  resize: none;
+  margin: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  line-height: 1rem;
+  border: none;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.post:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* .deleteBut {
+  height: 1.7rem;
+  background-color: rgb(204, 96, 118);
+} */
+
+.submitBut {
+  height: 68px;
+  width: 100%;
+  background-color: rgb(35, 170, 148);
+  transition: 0.15s linear;
+}
+
+.submitBut:hover {
+  background-color: rgb(136, 50, 235);
+}
+
+.buttons button {
+  display: block;
+  width: 100%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Hind Siliguri", sans-serif;
+}

@@ -1,0 +1,90 @@
+.block {
+  height: 90px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.avadiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  border-left: 2px solid rgba(0, 0, 0, 0.055);
+}
+
+.buttons button {
+  width: 80px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.buttons button:disabled {
+  background-color: rgb(112, 112, 112);
+}
+
+.folBut {
+  background-color: rgb(56, 129, 116);
+}
+
+.unfolBut {
+  background-color: rgb(146, 90, 90);
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.userInfo {
+  display: flex;
+  width: 100%;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+
+.nameStatus {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1.4rem;
+}
+
+.status {
+  color: rgba(0, 0, 0, 0.603);
+  width: 400px;
+  height: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.location {
+  text-align: right;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.747);
+}
+
+.cityLocation {
+  font-size: 1rem;
+}
+
+.nav {
+  height: 90px;
+  width: 90px;
+}

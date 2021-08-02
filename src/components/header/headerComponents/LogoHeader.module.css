@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 15px;
+  margin-left: 40px;
+  color: white;
+  font-size: 30px;
+}
+
+.brand {
+  color: rgb(240, 240, 240);
+  font-size: 20px;
+  font-weight: 600;
+}
